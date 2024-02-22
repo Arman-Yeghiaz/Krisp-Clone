@@ -19,7 +19,7 @@ int main(){
     int len = sizeof(arr)/sizeof(arr[0]);
     
     const int size = 2;
-    SortingOption algs[2] = {{BUBBLE_SORT,bubble_sort},{SELECTION_SORT,selection_sort}};
+    SortingOption algs[size] = {{BUBBLE_SORT,bubble_sort},{SELECTION_SORT,selection_sort}};
     
     int userChoice;
     std::cout<<"Choose the type of algorithm (0 for Bubble Sort and 1 for the Selection Sort): ";
