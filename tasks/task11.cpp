@@ -42,7 +42,7 @@ int main(){
     int len = arr.size();    
     
     const int size = 2; // size for struct
-    SortingOption algs[2] = {{BUBBLE_SORT,bubble_sort},{SELECTION_SORT,selection_sort}};
+    SortingOption algs[size] = {{BUBBLE_SORT,bubble_sort},{SELECTION_SORT,selection_sort}};
     
     int userChoice;
     std::cout<<"Choose the type of algorithm (0 for Bubble Sort and 1 for the Selection Sort): ";
